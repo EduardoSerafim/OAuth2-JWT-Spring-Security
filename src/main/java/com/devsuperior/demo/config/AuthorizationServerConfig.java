@@ -59,7 +59,7 @@ public class AuthorizationServerConfig {
 	private String clientId;
 
 	@Value("${security.client-secret}")
-	private String clientSecret;
+	private String 	clientSecret;
 
 	@Value("${security.jwt.duration}")
 	private Integer jwtDurationSeconds;
